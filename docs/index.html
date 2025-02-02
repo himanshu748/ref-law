@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ref-Law - AI Legal Research Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="brand">
+            <i class="fas fa-balance-scale logo-icon"></i>
+            <span class="brand-name">REF-LAW</span>
+        </div>
+        <div class="nav-items">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#demo" class="nav-link">Demo</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+            <div class="language-selector">
+                <i class="fas fa-globe"></i>
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="ta">தமிழ்</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Revolutionizing Legal Research with AI</h1>
+            <p class="hero-subtitle">Instant access to 50+ years of Indian legal precedents in multiple languages</p>
+            
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" placeholder="Describe your case or search by section..." class="search-input">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i> Find Similar Cases
+                    </button>
+                </div>
+                <div class="search-examples">
+                    <span>Try: </span>
+                    <a href="#">"IPC 498A recent judgements"</a>
+                    <a href="#">"Consumer protection act 2019 cases"</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Grid -->
+    <section class="features" id="features">
+        <h2 class="section-title">Why Choose Ref-Law?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>AI-Powered Analysis</h3>
+                <p>Deep learning models trained on 1M+ Indian legal documents</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <h3>Multilingual Support</h3>
+                <p>Read judgments in English, Hindi, and 10+ regional languages</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Lightning Fast Search</h3>
+                <p>Find relevant cases 10x faster than traditional methods</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo" id="demo">
+        <h2 class="section-title">See It In Action</h2>
+        <div class="demo-container">
+            <div class="demo-card">
+                <div class="demo-header">
+                    <div class="case-title">Sample Case Analysis</div>
+                    <div class="case-meta">
+                        <span class="case-court">Supreme Court of India</span>
+                        <span class="case-year">2023</span>
+                    </div>
+                </div>
+                <div class="demo-content">
+                    <div class="case-summary">
+                        <h4>AI-Generated Summary</h4>
+                        <p>The court held that... [sample summary text]</p>
+                    </div>
+                    <div class="similar-cases">
+                        <h4>Related Cases</h4>
+                        <ul class="case-list">
+                            <li>2022 SCC Online SC 1234</li>
+                            <li>2021 AIR(SC) 5678</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Ref-Law</h4>
+                <p>Empowering legal professionals with AI-driven insights</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>support@ref-law.software</p>
+                <p>+91 98765 43210</p>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Ref-Law. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
